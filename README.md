@@ -17,25 +17,16 @@ JSON:  "from": 1,
     }
 
 
-
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
-
 #### MVP
 
-_These are examples only. Replace with your own MVP features._
-
-- Find and use external api
-- Render data on page
-- Allow user to choose favorites
+- Use external API of food recipes and images
+- Successfully present recipes and images to meet the search of users
+- Successfully use Modal UI and grid
 
 #### PostMVP
 
-_These are examples only. Replace with your own Post-MVP features._
-
-- Add second API
-- Use local storage to save user favorites
+- Add second API for nutrients in every ingredient/ meal
+- Add local storage for users to save favorites
 
 ## Project Schedule
 
@@ -51,12 +42,5 @@ This schedule will be used to keep track of your progress throughout the week an
 | June 26-27 | Post-MVP                                     | Incomplete |
 | June 28    | Presentations                                | Incomplete |
 
-## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
 ```
