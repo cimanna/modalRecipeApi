@@ -1,0 +1,34 @@
+
+let recipes = fetch('https://api.edamam.com/api/recipes/v2')
+let recipeArr = []
+let searchButton = document.querySelector('.searchButton')
+let recipeNames = document.querySelector('.recipe-names')
+let recipeImage = document.querySelector('.recipeImage')
+
+recipes.then(res => res.json())
+  data.preventDefault()
+
+  .then((data) => {
+  recipeArr.push(data.hits)
+
+  recipeName.innerHTML = `${recipeArr[4][0][0].label}`
+  recipeImage.src = recipes[4][0].recipe.image)
+}
+
+
+let searchRecipe = (event) => {
+  event.preventDefault()
+
+  let result = document.querySelector('.input').value
+  let newUrl = `https://api.thecatapi.com/v1/images/search?category_ids=${result}`
+
+  fetch(newUrl, {
+    headers: {
+      'x-api-key': '94031ae7cc4322e3ef2c5e273907f2fc'
+    }
+  })
+  .then(res => res.json())
+  .then(res => document.querySelector('.categoryCatImage').src = res[0].url)
+}
+randomButton.addEventListener('click', randomCat)
+searchButton.addEventListener('click', searchCat)
