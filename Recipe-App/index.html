@@ -14,25 +14,24 @@
           <h1>Eat What You Want AND What You Can!</h1>
       </header>
       <main>
-          <div class=""><img src="" class="randomCatImage"></div>
-          <form>
-              <input type="text" class="input" placeholder="recipe-ID">
-              <button class="searchButton">Eat what you want!</button>
-          </form>
-          <div class="category-keys">
-              <!-- <h3>Categories</h3> -->
-              <ul>
-                  <li>1: Hats</li>
-                  <li>2: Space</li>
-                  <li>4: Sunglasses</li>
-                  <li>5: Boxes</li>
-                  <li>7: Ties</li>
-                  <li>14: Sinks</li>
-                  <li>15: Clothes</li>
-              </ul>
+              <form>
+                <input type="text" class="inputField"></input>
+                <button type="submit">Search</button>
+              </form>
+
+                <!-- <div class="modal-dialog modal-fullscreen-xl-down" name="recipe-info">
+                  <label data-open="health" for="health-select">Health Restrictions:</label>
+                  <label data-open="allergy" for="allergies">Allergies</label>
+                  <label data-open="diet" for="diet">Diet Preferences</label>
+                  <label data-open="sw-sav" for="sw/sav">Sweet or Savory</label>
+              -->
+              <button type="button" class="close-modal" aria-label="close modal" data-close>✕</button>
+
           </div>
           <div class="recipeCategory"><img src="" class="recipeImage"></div>
-      </main>
+       
+          <div id="myModal" class="modal"></div>
+        </main>
       <script src="recipe.js"></script>
   </body>
 </html>
