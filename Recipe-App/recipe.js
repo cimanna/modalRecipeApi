@@ -1,4 +1,4 @@
-const resultDiv = document.querySelector(".result-container")
+const resultDiv = document.querySelector(".container")
 document.querySelector("form").addEventListener("submit", function (event) {
   event.preventDefault();
   let option = document.querySelector(".inputField").value;
@@ -28,6 +28,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
         unList.appendChild(li);
 
         li.addEventListener("click", function () {
+          let modal = document.getElementById("myModal");
           modal.innerHTML = '';
 
           modal.style.display = "block";
