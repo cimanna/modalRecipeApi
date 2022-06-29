@@ -1,5 +1,4 @@
 const resultDiv = document.querySelector(".result-container")
-// let healthCont = document.getElementById(`${res.hits[i].recipe.url}`);
 document.querySelector("form").addEventListener("submit", function (event) {
   event.preventDefault();
   let option = document.querySelector(".inputField").value;
@@ -29,8 +28,8 @@ document.querySelector("form").addEventListener("submit", function (event) {
         unList.appendChild(li);
 
         li.addEventListener("click", function () {
-          let modal = document.getElementById("myModal");
           modal.innerHTML = '';
+
           modal.style.display = "block";
           let modalInfo = `
           <div class="modal-content">
@@ -63,7 +62,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
           };
           // close it when the user clicks anywhere outside of the modal 
           window.onclick = function (event) {
-            if (event.target == modal) {
+            if (event.target === modal) {
               modal.style.display = "none";
             }
           };
