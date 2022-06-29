@@ -32,15 +32,15 @@ JSON:  "from": 1,
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations. Lay out the days you anticipate hitting your major milestones. Below is a suggested schedlue. Feel free to adjust it.
 
-| Day        | Deliverable                                  | Status     |
-| ---------- | -------------------------------------------- | ---------- |
-| June 24    | Prompt / Wireframes / Timeframes             | Incomplete |
-| June 24    | Project Approval                             | Incomplete |
-| June 24    | Core Application Structure (HTML, CSS, etc.) | Incomplete |
-| June 25    | Pseudocode / actual code                     | Incomplete |
-| June 25    | MVP                                          | Incomplete |
-| June 26-27 | Post-MVP                                     | Incomplete |
-| June 28    | Presentations                                | Incomplete |
+| Day        | Deliverable                                  
+| ---------- | -------------------------------------------- |
+| June 24    | Prompt / Wireframes / Timeframes             |  
+| June 24    | Project Approval                             |  
+| June 24    | Core Application Structure (HTML, CSS, etc.) |  
+| June 25    | Pseudocode / actual code                     |  
+| June 25    | MVP                                          |  
+| June 26-27 | Post-MVP                                     |  
+| June 28    | Presentations                                
 
 
 ```
