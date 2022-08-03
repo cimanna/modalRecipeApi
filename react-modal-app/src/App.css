@@ -1,0 +1,117 @@
+.App {
+  min-height: 100vh;
+  width: 100vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+.App-image-container{
+  width:100vw;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.Item-container{
+  border: 1px solid red;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  width: 300px;
+  text-align: center;
+}
+
+.Modal {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal-container {
+  background: white;
+  border: 1px solid black;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+
+}
+
+
+
+
+/* const SModalOverlay = styled.div`
+  background-color: #999999;
+  height: 100vh;
+  left: 0;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 500;
+`;
+
+const SModalWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  left: 0;
+  outline: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  top: 25%;
+  width: 100%;
+  z-index: 1000;
+`;
+
+const SModal = styled.div`
+  align-items: center;
+  background: white;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1.875rem;
+  max-width: 500px;
+  position: relative;
+  z-index: 100;
+`;
+
+const SHeader = styled.div`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1.875rem 0.9375rem 1.875rem 0.9375rem;
+`;
+
+const STitle = styled.h5`
+  margin-bottom: 0.3125rem;
+`;
+
+const SButton = styled.button`
+  border-top: 1px solid #F0F0F0;
+  color: #6D087C;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.9375rem;
+  width: 100%;
+`;
+const SDescription = styled.span`
+  color: #C1C1C1;
+  text-align: center;
+`; */
