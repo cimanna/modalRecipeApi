@@ -1,14 +1,14 @@
 
 /* Next, we’ll horizontally and vertically center the page contents. Plus, we’ll give some styles to the button responsible for opening the modal: */
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 body{
-  /* display: block; */
-  /* position: absolute; */
-  /* margin: 0px auto; */
-  /* padding: 10px; */
-  /* box-sizing: border-box; */
+  display: block;
+  position: absolute;
+  margin: 0px auto;
+  padding: 10px;
+  box-sizing: border-box;
 
 }
 main {
@@ -135,22 +135,37 @@ li {
 
 
 @media screen and (max-width: 992px) {
-  main {
-    width: 60%;
+  body {
     margin: 0 auto;
-
   }
-.result-container{
-width: 60%;
+  main {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .venus-lips {
+    float: none;
+    width: 100%;
+    
+  }
+  .result-container {
+    width: 60%;
+  }
 }
-}
+
 @media screen and (max-width: 768px) {
   main {
     width: 50%;
     margin: 0 auto;
-
   }
 }
+
 @media screen and (max-width: 490px) {
   main {
     max-width: 100%;
